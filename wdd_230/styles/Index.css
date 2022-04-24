@@ -1,0 +1,31 @@
+
+h1{
+    display: inline-block;
+    vertical-align: middle; 
+}
+div{
+    padding: 30px;  
+    text-align:center;
+}
+
+header{
+    background-color:gray;
+    color: white;
+} 
+
+.my-photo{
+    vertical-align: middle;
+    padding-right: 30px;   
+}
+
+.copyright{
+    background-color: gray;
+    padding: 30px;
+    color: white;
+    text-align: center
+}
+
+body{
+    padding-left:10%;
+    padding-right:10%;
+}
