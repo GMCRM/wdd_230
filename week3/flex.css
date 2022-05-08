@@ -1,0 +1,30 @@
+nav a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:0 auto;
+
+}
+
+@media screen and (min-width: 900px){
+    nav a{
+        flex-direction: row;
+    }
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cards img{
+    margin: 10px;
+    border:3px solid black;
+    box-shadow: 3px 3px 8px 0px;
+}
+
+
