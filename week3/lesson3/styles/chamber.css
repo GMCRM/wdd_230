@@ -60,7 +60,8 @@ body{
     background-color: rgb(206, 202, 202);
 }
 nav{
-    color: black;display: flex;
+    color: black;
+    display: flex;
     flex:space-evenly;
     gap:60px 20px;
     column-gap: 20px;
