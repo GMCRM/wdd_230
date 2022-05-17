@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "montserrat", sans-serif;
+}
+
+
+nav{
+    height:75px;
+    width:100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width:auto;
+    margin:0;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.logo-txt{
+    font-size: 30px;
+    line-height: 75px;
+    padding-left: 10px;
+    font-weight:bold;
+    color: white;
+}
+
+.nav-list{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 75px;
+    background: #2A3B51;
+    float: right;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-list li {
+    opacity: 0;
+    line-height: 30px;
+    margin: 50px 0;
+    transition:all .5s;
+
+}
+
+
+
+
+.my-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    transition: all .5s;
+}
+
+.nav-list li a {
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+.nav li a.active, .nav-list li a:hover{
+    color: #0279e5;
+    transition: 0.5s;
+}
+
+.hamburger-btn{
+    display:block;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 75px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+#check:ckecked ~ .nav-list {
+    height: 100vh;
+}
+
+#check:ckecked ~ .nav-list li {
+    opacity: 1;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}

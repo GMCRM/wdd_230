@@ -1,8 +1,9 @@
-nav a{
+nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin:0 auto;
+    text-size-adjust: 3em;
 
 }
 
