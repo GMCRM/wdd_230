@@ -1,0 +1,28 @@
+@media only screen and (min-width: 35rem){
+
+    nav button {display:none}
+
+    nav ul {
+        display: flex;
+        margin-left:2vw;
+    }
+
+    .nav-menu{
+    display:flex;
+    justify-content: space-between;
+    gap:60px;
+    align-content: center;
+    }
+
+    nav ul li a {
+    border:none;
+    border-right:1px solid rgba(0, 0, 0, 0.3);
+    }
+
+
+    
+}
+    .head_stuff{
+        background-color: gray;
+        padding-left: 2vw;
+        margin:0 auto}
