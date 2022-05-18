@@ -8,6 +8,4 @@ function AdaptiveMenu() {
     }
 }
 
-
-
 document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu); 
