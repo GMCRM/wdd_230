@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem){
+@media only screen and (min-width: 44rem){
 
     nav button {display:none}
 
@@ -7,16 +7,25 @@
         margin:2vw;
     }
 
+    .nav-menu li {
+        display:block;
+        justify-content: right;
+    }
+
     .nav-menu{
     display:flex;
     justify-content: space-between;
-    gap:60px;
+    gap:15px;
     align-content: center;
     }
 
     nav ul li a {
     border:none;
-    border-right:1px solid rgba(0, 0, 0, 0.3);
+    border-right:3px solid rgba(0, 0, 0, 0.3);
+    border-left:3px solid rgba(0, 0, 0, 0.3);
+    align-content: center;
+    padding-right: 30px; 
+    padding-left:30px 
     }
 
     #menu-icon {
