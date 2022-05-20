@@ -1,3 +1,91 @@
+.grid-container{
+    display:grid;
+    /* grid-template-columns: 30% 20% 50%; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat(6, minmax(300px, auto));
+    grid-gap:10px;
+    /* grid-auto-rows: minmax(200px, auto); */
+    background-color: tan;
+    padding:10px;
+}
+
+#hero{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+
+}
+#event{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+#weather{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+#news1{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+#spotlights{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+
+#spot1{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+    
+}
+#spot2{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+#spot3{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+    display:none;}
+
+#news2{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+
+#join{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    border:1px solid gray;
+}
+
 body {
     padding-left: 5%;
     padding-right: 5%;
@@ -127,9 +215,22 @@ header div {
     align-items: center;
     justify-content: center;
 }
+footer{
+    text-align: center;
+}
 
 header {
-    color: white;
+    color: black;
+}
+
+.contact{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display:block;
+}
+
+.head_stuff_2{
+justify-items: center;
 }
 
 

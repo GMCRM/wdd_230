@@ -9,3 +9,6 @@ function AdaptiveMenu() {
 }
 
 document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu); 
+
+
+document.getElementById("modify").innerHTML = document.lastModified

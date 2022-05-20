@@ -1,4 +1,4 @@
-@media only screen and (min-width: 44rem){
+@media only screen and (min-width: 47rem){
 
     nav button {display:none}
 
@@ -31,7 +31,106 @@
     #menu-icon {
         display:none;
     }
+    .grid-container{
+        display:grid;
+        /* grid-template-columns: 30% 20% 50%; */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows:repeat(19, minmax(50px, auto));
+        grid-gap:10px;
+        /* grid-auto-rows: minmax(200px, auto); */
+        background-color: tan;
+        padding:10px;
+    }
+    
+    #hero{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        grid-column: 1/7;
+        grid-row:1/4;
+    }
+    #event{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        grid-column: 1/5;
+        grid-row:16/20;
 
+    }
+    #weather{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        grid-column: 5/7;
+        grid-row:16/20;
+
+
+    }
+    #news1{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        grid-column: 1/7;
+        grid-row:4/8;
+
+    }
+
+    #spotlights{
+        grid-column: 1/7;
+        grid-row: 8/12;
+        display:flex;
+        grid-gap:10px;
+        justify-content: center;
+    }
+
+    #spot1{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        padding-left:6rem;
+        padding-right:6rem;
+
+    }
+    #spot2{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        padding-left:6rem;
+        padding-right:6rem;
+    }
+    #spot3{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        display:none;
+    }
+    #join{
+        background-color: lightgray;
+        padding:20px;
+        font-size: 30px;
+        text-align:center;
+        border:1px solid gray;
+        grid-column-start:1;
+        grid-column-end: 7;
+        grid-row:12/16;
+
+    }
+    
     
 }
 
