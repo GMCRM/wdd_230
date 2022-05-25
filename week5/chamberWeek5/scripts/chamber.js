@@ -12,3 +12,7 @@ document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu);
 
 
 document.getElementById("modify").innerHTML = document.lastModified
+
+
+let date = document.getElementById("date");
+date.innerText = new Date().toLocaleDateString("en-US", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
