@@ -3,6 +3,10 @@
     color:white;
 }
 
+.compiled{
+    font-size: .8rem;
+}
+
 table{
     text-align: center;
     margin:100px auto;
