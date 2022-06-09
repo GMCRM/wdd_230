@@ -1,0 +1,54 @@
+.highlighted-box{
+    background-color: tan;
+    color:white;
+}
+
+table{
+    text-align: center;
+    margin:100px auto;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+thead {
+    
+}
+
+caption{
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(193, 149, 26);
+    font-weight: bolder;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+table, td, th, caption{
+    border:  1px solid darkgray;
+    border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+td, th{
+    font-size: 1.2em;
+    padding:10px;
+}
+/* zebra stripe */
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+/* changing the color of table head and food */
+thead, tfoot{
+    background-color: rgb(193, 149, 26);
+}
+
+tbody tr:first-child{
+    background-color: tan;
+    color:white;
+}
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table practice</title>
+
+<style>
+    table{
+        text-align: center;
+        margin:100px auto;
+        
+    }
+
+    table, td, th{
+        border:  2px solid black;
+    }
+
+
+    td, th{
+        font-size: 1.2em;
+        padding:10px;
+    }
+/* zebra stripe */
+    tbody tr:nth-child(odd) {
+        background-color: #ccc;
+    }
+/* changing the color of table head and food */
+    thead, tfoot{
+        background-color: pink;
+    }
+
+    tbody tr:first-child{
+        background-color: lightgreen;
+    }
+
+    /* putting green in background of the second child in each of the table data */
+    tbody td:nth-child(2){
+        background-color:lightgreen;
+        font-style:italic
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    WDD230 WHAT'S COMING UP
+                </th>
+            </tr>
+        </thead>
+        <TBODY>
+            <tr>
+                <th>
+                    Week
+                </th>
+                <th>
+                    topic
+                </th>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    Week 8
+                </td>
+                <td>tables</td>
+            </tr>
+            <tr>
+                <td>Forms</td>
+            </tr>
+            <tr>
+                <td>week 9</td>
+                <td>Fetch</td>
+            </tr>
+            <tr>
+                <td>Weed 10</td>
+                <td>API</td>
+            </tr>
+        </TBODY>
+        <tfoot>
+            <tr>
+                <td rowspan="2">A look at the next few weeks</td> 
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+
+</body>
+</html>
