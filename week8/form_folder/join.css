@@ -1,0 +1,152 @@
+body{
+    /* display:flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    background:tan;
+}
+#join_us{
+    justify-content:center;
+}
+
+
+
+
+.join-grid-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0;
+}
+
+
+
+.container{
+    max-width: 100%;
+    width:100%;
+    
+    /* padding: 0 25px 0 30px; */
+    border-radius: 5px;
+    
+}
+
+#cont1{
+    grid-column: 1/2;
+    background:gray;
+    display:block;
+}
+
+#1234 p{
+    grid-column: 2/3;
+    width: 50%;
+    background-color: gray;
+    height: 100%;
+    margin: 0;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+section p{      
+    border: 1px;
+    border-style: solid;
+        background-color: rgb(99, 98, 98);
+        text-align: center;
+        margin:100px auto;
+        box-shadow: 5px 10px 8px rgb(79, 75, 75);
+    width:85%;
+    height:55%
+}
+
+.title {
+    display: block;
+}
+
+.container .title{
+    font-size:25px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.container .title::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom:0;
+    height:3px;
+    width:30px;
+    background: tan;
+}
+
+.container form .user-details{
+    /* display:flex;
+    flex-wrap:wrap; */
+    justify-content: space-between;
+    margin: 20px 0 12px 0; 
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    /* width: calc(100% / 1.5 - 20px); */
+    width:85%;
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid darktan;
+    /* padding-left:15px; */
+    font-size:16px;
+    border-bottom-width:3px;
+    transition: all 0.3s ease; 
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: tan;
+}
+
+form .button{
+    height:45px;
+    margin: 45px 0;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background:tan;
+    font-size: 18px;
+    font-weight:500;
+    border-radius:5px;
+    letter-spacing: 1px;
+}
+
+form .button input:hover{
+    background:rgb(164, 139, 107);
+}
+
+@media (max-width: 584px){
+    .container{
+        max-width:100%;
+    }
+    form .user-details .input-box{
+        margin-bottom:15px;
+        width: 100%;
+    }
+    .container form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+    }
+}
