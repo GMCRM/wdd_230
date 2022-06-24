@@ -1,25 +1,3 @@
-function AdaptiveMenu() {
-    let nav = document.querySelector("#menu");
-    if(nav.className === "nav-menu"){
-        nav.className += ".responsive"
-    }
-    else{
-        nav.className = "nav-menu"
-    }
-}
-
-document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu); 
-
-
-document.getElementById("modify").innerHTML = document.lastModified
-
-
-let date = document.getElementById("date");
-date.innerText = new Date().toLocaleDateString("en-US", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
-
-
-
-// API JS
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4379644&appid=da1c6ca84b3935dbb55fe9ef4e11871f";
 fetch(apiURL)
   .then((response) => response.json())

@@ -1,5 +1,3 @@
-
-   
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 const ul = document.querySelector("ul");
@@ -7,11 +5,8 @@ const li = document.getElementsByTagName("li");
 const deleteButton = document.getElementsByTagName("i");
 var clearButton = document.getElementById("clear");
 
-function strikeThrough(e) {
-    if (e.target.tagName === "LI") {
-        e.target.classList.toggle("done");
-    }
-}
+
+
 
 function createDeleteButtonIcon() {
     for (var ind = 0; ind < li.length; ind++) {
@@ -78,7 +73,6 @@ function clearList() {
 }
 
 clearButton.addEventListener("click", clearList);
-ul.addEventListener("click", strikeThrough);
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
 createDeleteButtonIcon();
