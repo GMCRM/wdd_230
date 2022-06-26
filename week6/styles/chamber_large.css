@@ -86,20 +86,20 @@
 
     }
 
-    #weather .sunPhoto{
+    /* #weather .sunPhoto{
         border-radius: 50%;
         height:70px;
         width:70px;
-    }
+    } */
 
-    #weather .sunPhoto{
+    /* #weather .sunPhoto{
         position: absolute;
         z-index: 999;
         margin:0 auto;
         top:35%;
         left:-65%;
         right:0;
-    }
+    } */
 
     #weather .weatherText{
         position: absolute;
@@ -110,6 +110,8 @@
         right:0;
         color: black;
         background-color: rgba(11, 70, 7, 0.5);
+        font-size: 20px;
+        padding-top:15px;
 
     }
 
