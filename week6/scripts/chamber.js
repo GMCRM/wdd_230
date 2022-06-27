@@ -26,8 +26,11 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    let f = (jsObject.main.temp - 273.15) * 1.8 + 32;
-    document.querySelector('#current-temp').textContent = f.toFixed(2);
+    let temp = (jsObject.main.temp - 273.15) * 1.8 + 32;
+    document.querySelector('#current-temp').textContent = temp.toFixed(2);
+
+    let windspeed = jsObject.wind.speed;
+    document.querySelector('#windSpeed').textContent = windspeed;
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
@@ -35,4 +38,10 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
+
+
+    if (temp <= 50 && windspeed > 3.0) {
+    let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+    document.querySelector('#windchill').textContent = chill + ' °F';
+  }
   });

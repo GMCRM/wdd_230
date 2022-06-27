@@ -103,6 +103,7 @@
     z-index: 999;
     margin:0 auto;
     top:8%;
+    bottom:8%;
     left:0;
     right:0;
     color: black;
@@ -203,13 +204,20 @@
     width:100%;
     /* height:100%; */
 }
+.medium_not_square1{
+    display:none;
+}
+
+.medium_not_square2{
+    display: none;
+}
 
 .medium_square1{
-    display:none
+    display: block;
 }
 
 .medium_square2{
-    display: none;
+    display: block;
 }
 
 
