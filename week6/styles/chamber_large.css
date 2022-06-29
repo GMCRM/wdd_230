@@ -28,6 +28,11 @@
     padding-left:30px 
     }
 
+
+.info{
+    padding-left:40%;
+}
+
     #menu-icon {
         display:none;
     }
@@ -175,6 +180,30 @@
 
     }
 
+    .s1text{
+        background-color: rgba(11, 70, 7, 0.5);
+        /* left:100%; */
+    
+    }
+    
+    .s2text{
+        background-color: rgba(11, 70, 7, 0.5);
+        
+    
+    }
+    
+    .s3text{
+        background-color: rgba(11, 70, 7, 0.5);
+        position: absolute;
+        z-index: 999;
+        margin:0 auto;
+        top:0;
+        left:0;
+        right:0;
+        background-color: rgba(11, 70, 7, 0.5);
+        color: white;
+    }
+   
 
     #spot1{
         background-color: lightgray;
