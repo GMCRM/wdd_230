@@ -631,15 +631,16 @@ transition: 0.7s ease;
 
 .photos{
     background-color: tan;
-    /* padding-left:8%;
-    padding-right:8%; */
-    display:inline-block;
+    flex-wrap: flex;
+    text-align: center;
 
 }
 
 .photos img{
-    height:auto;
-    width:30%;
-    padding:1%;
+    width:350px;
+}
 
+[data-src]{
+    min-width: 350px;
+    min-height:350px;
 }
