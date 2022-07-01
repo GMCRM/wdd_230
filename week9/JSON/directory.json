@@ -4,7 +4,7 @@
 	"address": "416 N Walnut St a, Cameron, MO 64429",
     "phone_number": "+18166322005",
     "website_url": "https://cameronmochamber.com/",
-    "image_path": "./JSON/Photos/Cameron Chamber of Commerce.jpg"
+    "image_path": "../JSON/Photos/Cameron_Chamber_of_Commerce.jpg"
 },
 
 {
@@ -12,7 +12,7 @@
 	"address": "123 E 3rd St, Cameron, MO 64429",
     "phone_number": "+18166326679",
     "website_url": "http://www.missouricentraltitle.com/",
-    "image_path": "./JSON/Photos/Cameron Title Company.jpg"
+    "image_path": "../JSON/Photos/Cameron_Title_Company.jpg"
 },
 
 {
@@ -20,7 +20,7 @@
 	"address": "405 Clifton Dr, Cameron, MO 64429",
     "phone_number": "+18166323850",
     "website_url": "N/A",
-    "image_path": "./JSON/Photos/Bottorff Construction Co.jpg"
+    "image_path": "../JSON/Photos/Bottorff_Construction_Co.jpg"
 },
 
 {
@@ -28,7 +28,7 @@
 	"address": "121 W 3rd St, Cameron, MO 64429",
     "phone_number": "+18166323786",
     "website_url": "cameronmochamber.com",
-    "image_path": "./JSON/Photos/Cameron Accounting & Financial.jpg"
+    "image_path": "../JSON/Photos/Cameron_Accounting_Financial.jpg"
 },
 
 {
@@ -36,7 +36,7 @@
 	"address": "216 N Walnut St, Cameron, MO 64429",
     "phone_number": "+18166322911",
     "website_url": "http://www.mteoffice.com/",
-    "image_path": "./JSON/Photos/MTE Office Center.jpg"
+    "image_path": "Photos/MTE_Office_Center.jpg"
 },
 
 {
@@ -44,7 +44,7 @@
 	"address": "630 Lana Dr, Cameron, MO 64429",
     "phone_number": "+18166327133",
     "website url": "http://clearybuilding.com/",
-    "image_path": "./JSON/Photos/Cleary Building Corp..jpg"
+    "image_path": "Photos/Cleary_Building_Corp.jpg"
 },
 
 {
@@ -52,7 +52,7 @@
 	"address": "906 N Walnut St, Cameron, MO 64429",
     "phone_number": "+18166321701",
     "website_url": "https://sutherlands.com/s/Cameron-MO/5602",
-    "image_path": "./JSON/Photos/Sutherlands.jpg"
+    "image_path": "Photos/Sutherlands.jpg"
 },
 
 {
@@ -60,7 +60,7 @@
 	"address": "311 N Walnut St, Cameron, MO 64429",
     "phone_number": "+18447697020",
     "website_url": "http://www.janessurveying.com/",
-    "image_path": "./JSON/Photos/Janes Surveying, Inc..jpg"
+    "image_path": "../JSON/Photos/Janes_Surveying_Inc.jpg"
 },
 
 {
@@ -68,7 +68,7 @@
 	"address": "309 N Main St, Cameron, MO 64429",
     "phone_number": "+18166322263",
     "website_url": "http://www.laapc.com/",
-    "image_path": "./JSON/Photos/Lowenstein & Associates.jpg"
+    "image_path": "Photos/Lowenstein_Associates.jpg"
 },
 
 {
@@ -76,7 +76,7 @@
 	"address": "2025 N Walnut St, Cameron, MO 64429",
     "phone_number": "+18166328880",
     "website_url": "http://www.thornelumber.com/",
-    "image_path": "./JSON/Photos/Cameron Lumber.jpg"
+    "image_path": "Photos/Cameron_Lumber.jpg"
 },
 
 {
@@ -84,7 +84,7 @@
 	"address": "912 N Pine St, Cameron, MO 64429",
     "phone_number": "+18166322627",
     "website_url": "N/A",
-    "image_path": "./JSON/Photos/Baldwin Maintenance & Cleaning.jpg"
+    "image_path": "Photos/Baldwin_Maintenance_Cleaning.jpg"
 },
 
 {
@@ -92,7 +92,7 @@
 	"address": "11206 NE Hwy 69, Cameron, MO 64429",
     "phone_number": "+18166326554",
     "website_url": "http://www.thompsongas.com/",
-    "image_path": "./JSON/Photos/ThompsonGas.jpg"
+    "image_path": "Photos/Thompson_Gas.jpg"
 }
 ]
 
