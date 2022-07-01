@@ -76,7 +76,7 @@
 	"address": "2025 N Walnut St, Cameron, MO 64429",
     "phone_number": "+18166328880",
     "website_url": "http://www.thornelumber.com/",
-    "image_path": "Photos/Cameron_Lumber.jpg"
+    "image_path": "../JSON/Photos/Cameron_Lumber.jpg"
 },
 
 {
