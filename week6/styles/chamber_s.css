@@ -631,29 +631,56 @@ transition: 0.7s ease;
 
 .photos{
     background-color: tan;
-    flex-wrap: flex;
     text-align: center;
-
+    display:grid;
+    
+     width:100%;
 }
+
+
 
 .photos img{
     width:350px;
+
+}
+
+.photos div.photo-title{
+    margin:1em auto;
+    display: block;
+
 }
 
 [data-src]{
     min-width: 350px;
     min-height:350px;
-    border: 1px solid darkgray;
-    background-color: gray;
-    padding: 30px;
-    text-align: center;
-    width: 300px;
-    margin:20px;
+
+
 }
 
 
 
-img[data-src] {
-    width: 20%;
+ .photo-title img{
+    width: 90% !important;
     box-shadow: 5px 10px 8px 5px rgb(67, 67, 67);
+    }
+
+section .photo-title{
+    width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+section .photo-title p{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+section .photo-title{
+    border: 1px solid black;
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+
     }
