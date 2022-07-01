@@ -643,4 +643,17 @@ transition: 0.7s ease;
 [data-src]{
     min-width: 350px;
     min-height:350px;
+    border: 1px solid darkgray;
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin:20px;
 }
+
+
+
+img[data-src] {
+    width: 20%;
+    box-shadow: 5px 10px 8px 5px rgb(67, 67, 67);
+    }
