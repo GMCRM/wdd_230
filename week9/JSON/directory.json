@@ -8,7 +8,7 @@
 },
 
 {
-    "company_name": "Cameron Title Company",
+    "company_name": "Cameron Title Company <br/>",
 	"address": "123 E 3rd St, Cameron, MO 64429",
     "phone_number": "+18166326679",
     "website_url": "http://www.missouricentraltitle.com/",
@@ -24,7 +24,7 @@
 },
 
 {
-    "company_name": "Cameron Accounting Inc.",
+    "company_name": "Cameron Accounting & Financial",
 	"address": "121 W 3rd St, Cameron, MO 64429",
     "phone_number": "+18166323786",
     "website_url": "cameronmochamber.com",
@@ -80,7 +80,7 @@
 },
 
 {
-    "company_name": "Baldwin Cleaning",
+    "company_name": "Baldwin Maintenance & Cleaning",
 	"address": "912 N Pine St, Cameron, MO 64429",
     "phone_number": "+18166322627",
     "website_url": "N/A",
