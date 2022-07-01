@@ -43,7 +43,7 @@
     "company_name": "Cleary Building Corp.",
 	"address": "630 Lana Dr, Cameron, MO 64429",
     "phone_number": "+18166327133",
-    "website url": "http://clearybuilding.com/",
+    "website url": "clearybuilding.com",
     "image_path": "../JSON/Photos/Cleary_Building_Corp.jpg"
 },
 
@@ -80,7 +80,7 @@
 },
 
 {
-    "company_name": "Baldwin Maintenance & Cleaning",
+    "company_name": "Baldwin Cleaning",
 	"address": "912 N Pine St, Cameron, MO 64429",
     "phone_number": "+18166322627",
     "website_url": "N/A",
