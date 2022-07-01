@@ -1,0 +1,98 @@
+[
+{
+    "company_name": "Cameron Chamber of Commerce",
+	"address": "416 N Walnut St a, Cameron, MO 64429",
+    "phone_number": "+18166322005",
+    "website_url": "https://cameronmochamber.com/",
+    "image_path": "./JSON/Photos/Cameron Chamber of Commerce.jpg"
+},
+
+{
+    "company_name": "Cameron Title Company",
+	"address": "123 E 3rd St, Cameron, MO 64429",
+    "phone_number": "+18166326679",
+    "website_url": "http://www.missouricentraltitle.com/",
+    "image_path": "./JSON/Photos/Cameron Title Company.jpg"
+},
+
+{
+    "company_name": "Bottorff Construction Co",
+	"address": "405 Clifton Dr, Cameron, MO 64429",
+    "phone_number": "+18166323850",
+    "website_url": "N/A",
+    "image_path": "./JSON/Photos/Bottorff Construction Co.jpg"
+},
+
+{
+    "company_name": "Cameron Accounting & Financial",
+	"address": "121 W 3rd St, Cameron, MO 64429",
+    "phone_number": "+18166323786",
+    "website_url": "cameronmochamber.com",
+    "image_path": "./JSON/Photos/Cameron Accounting & Financial.jpg"
+},
+
+{
+    "company_name": "MTE Office Center",
+	"address": "216 N Walnut St, Cameron, MO 64429",
+    "phone_number": "+18166322911",
+    "website_url": "http://www.mteoffice.com/",
+    "image_path": "./JSON/Photos/MTE Office Center.jpg"
+},
+
+{
+    "company_name": "Cleary Building Corp.",
+	"address": "630 Lana Dr, Cameron, MO 64429",
+    "phone_number": "+18166327133",
+    "website url": "http://clearybuilding.com/",
+    "image_path": "./JSON/Photos/Cleary Building Corp..jpg"
+},
+
+{
+    "company_name": "Sutherlands",
+	"address": "906 N Walnut St, Cameron, MO 64429",
+    "phone_number": "+18166321701",
+    "website_url": "https://sutherlands.com/s/Cameron-MO/5602",
+    "image_path": "./JSON/Photos/Sutherlands.jpg"
+},
+
+{
+    "company_name": "Janes Surveying, Inc.",
+	"address": "311 N Walnut St, Cameron, MO 64429",
+    "phone_number": "+18447697020",
+    "website_url": "http://www.janessurveying.com/",
+    "image_path": "./JSON/Photos/Janes Surveying, Inc..jpg"
+},
+
+{
+    "company_name": "Lowenstein & Associates",
+	"address": "309 N Main St, Cameron, MO 64429",
+    "phone_number": "+18166322263",
+    "website_url": "http://www.laapc.com/",
+    "image_path": "./JSON/Photos/Lowenstein & Associates.jpg"
+},
+
+{
+    "company_name": "Cameron Lumber",
+	"address": "2025 N Walnut St, Cameron, MO 64429",
+    "phone_number": "+18166328880",
+    "website_url": "http://www.thornelumber.com/",
+    "image_path": "./JSON/Photos/Cameron Lumber.jpg"
+},
+
+{
+    "company_name": "Baldwin Maintenance & Cleaning",
+	"address": "912 N Pine St, Cameron, MO 64429",
+    "phone_number": "+18166322627",
+    "website_url": "N/A",
+    "image_path": "./JSON/Photos/Baldwin Maintenance & Cleaning.jpg"
+},
+
+{
+    "company_name": "ThompsonGas",
+	"address": "11206 NE Hwy 69, Cameron, MO 64429",
+    "phone_number": "+18166326554",
+    "website_url": "http://www.thompsongas.com/",
+    "image_path": "./JSON/Photos/ThompsonGas.jpg"
+}
+]
+
