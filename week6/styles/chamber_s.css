@@ -187,7 +187,6 @@
     padding:20px;
     font-size: 30px;
     text-align:center;
-    border:1px solid gray;
 }
 
 #spot1{
@@ -195,10 +194,30 @@
     padding:20px;
     font-size: 30px;
     text-align:center;
-    border:1px solid gray;
     display: inline-block;
     position: relative;
 }
+
+
+
+#spot2{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    display: inline-block;
+    position: relative;
+}
+#spot3{
+    background-color: lightgray;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+    display:none;
+    position:relative;
+}
+
+
 .s1text{
     background-color: rgba(11, 70, 7, 0.5);
     position:absolute;
@@ -269,25 +288,6 @@
 }
 
 
-
-#spot2{
-    background-color: lightgray;
-    padding:20px;
-    font-size: 30px;
-    text-align:center;
-    border:1px solid gray;
-    display: inline-block;
-    position: relative;
-}
-#spot3{
-    background-color: lightgray;
-    padding:20px;
-    font-size: 30px;
-    text-align:center;
-    border:1px solid gray;
-    display:none;
-    position:relative;
-}
 
 #join{
     background-color: lightgray;
@@ -688,3 +688,16 @@ section .photo-title{
     .bodyC{
         width:auto;
     }
+
+
+
+
+
+img.danceEventNarrow{
+        display:none;
+
+}
+
+.CameronPhotoNarrow{
+   display:none; 
+}

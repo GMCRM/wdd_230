@@ -162,21 +162,21 @@
 
     .medium_square1{
         display: block;
-        width:2470px;
-        height:270px;
+        width:280px;
+        height:280px;
     }
 
     .medium_square2{
         display: block;
-        width:270px;
+        width:280px;
         height:270px;
 
     }
 
     .medium_square3{
         display: block;
-        width:270px;
-        height:270px;
+        width:280px;
+        height:280px;
 
     }
 
@@ -210,8 +210,7 @@
         padding:20px;
         font-size: 30px;
         text-align:center;
-        border:1px solid gray;
-        
+        padding-bottom: 20%;
 
     }
     #spot2{
@@ -219,7 +218,7 @@
         padding:20px;
         font-size: 30px;
         text-align:center;
-        border:1px solid gray;
+        padding-bottom: 20%;
        
     }
     #spot3{
@@ -227,7 +226,6 @@
         padding:20px;
         font-size: 30px;
         text-align:center;
-        border:1px solid gray;
        display: block;
     }
     #join{
@@ -240,9 +238,32 @@
         grid-row:8/12;
 
     }
+
+
+    }
+    img.danceEventNormal{
+        display:none;
+        width:330px;
+        height: auto;
+    }
+
+   img.danceEventNarrow{
+        display: block;
+        height:100%;
+        width:100%;
+    }
+
+    .CameronPhotoNarrow{
+        display:block;
+        height:100%;
+        width:100%;
+    }
+    .CameronPhotoNormal{
+        display:none;
+    }
     
     
-}
+
 
 .head_stuff{
     background-color: gray;
