@@ -236,7 +236,7 @@
  
     
 }
-@media only screen and (min-width: 68rem){
+@media only screen and (min-width: 55rem){
    .photos{
  grid-template-columns: 50% 50%;   
 }
