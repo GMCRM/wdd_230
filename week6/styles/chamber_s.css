@@ -324,7 +324,7 @@
 
 body {
     padding-left: 5%;
-    padding-right: 5%;
+    
     margin: 0 auto;
 }
 
@@ -683,4 +683,8 @@ section .photo-title{
     padding: 30px;
     text-align: center;
 
+    }
+
+    .bodyC{
+        width:auto;
     }
