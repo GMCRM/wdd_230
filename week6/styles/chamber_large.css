@@ -1,5 +1,13 @@
 @media only screen and (min-width: 80rem){
 
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+
+        
+        margin: 0 auto;
+    }
+
     nav button {display:none}
 
     nav ul {

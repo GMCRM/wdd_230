@@ -240,9 +240,14 @@
    .photos{
  grid-template-columns: 50% 50%;   
 }
-.bodyC{
-     padding-right:5%;
- } 
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    
+    margin: 0 auto;
+} 
 }
 
 .head_stuff{
