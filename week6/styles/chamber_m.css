@@ -220,8 +220,11 @@
 }
 @media only screen and (min-width: 68rem){
    .photos{
- grid-template-columns: 50% 50%;    }
-
+ grid-template-columns: 50% 50%;   
+}
+.bodyC{
+     padding-right:5%;
+ } 
 }
 
 .head_stuff{
