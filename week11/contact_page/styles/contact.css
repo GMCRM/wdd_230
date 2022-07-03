@@ -1,0 +1,255 @@
+
+
+.leadership_intro{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+div.user-details{
+    padding-left: 20%;
+}
+div.button{
+    padding-left: 20%!important;
+
+}
+
+.in1{
+    padding-right:400px;
+}
+.in2{
+    padding-right:400px;
+}.in3{
+    padding-right:400px;
+}.in4{
+    padding-right:400px;
+    padding-bottom:45px;
+}
+
+span.details{
+    font-size: 1.5em;
+}
+
+.questionsText{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.contact_person{
+   
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: gray;
+        text-align: center;
+        text-align: center;
+    
+    }
+
+        .contact_person{
+            text-align: center;
+            flex:33.33%;
+        }
+        div.contact_person{
+        }
+
+        .row{
+            display:flex
+        }
+
+
+
+
+.input-box{
+    text-align: center;
+}
+
+body{
+    /* display:flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    background:tan;
+}
+#join_us{
+    justify-content:center;
+}
+
+form{
+    padding-top:15px;
+    padding-left:15px;
+    
+}
+
+.bg-gray{
+    padding-top:50px;
+}
+
+#1234P{
+    padding-bottom:10000px;
+}
+
+
+.join-grid-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0;
+}
+
+
+
+.container{
+    max-width: 100%;
+    width:100%;
+    
+    /* padding: 0 25px 0 30px; */
+    border-radius: 5px;
+    
+}
+
+#cont1{
+    grid-column: 1/2;
+    background:gray;
+    display:block;
+}
+
+#1234 p{
+    grid-column: 2/3;
+    width: 50%;
+    background-color: gray;
+    height: 100%;
+    margin: 0;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+section p{      
+    border: 1px;
+    border-style: solid;
+        background-color: rgb(99, 98, 98);
+        text-align: center;
+        margin:100px auto;
+        box-shadow: 5px 10px 8px rgb(79, 75, 75);
+    width:70%;
+    height:50%;
+    padding:5%;
+    padding-bottom:110px;
+}
+
+.title {
+    display: block;
+    padding-left:20px;
+    padding-top:15px;
+    
+}
+
+.container .title{
+    font-size:25px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.container .title::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom:0;
+    height:3px;
+    width:30px;
+    background: tan;
+    padding-left:90px;
+}
+
+.container form .user-details{
+    /* display:flex;
+    flex-wrap:wrap; */
+    justify-content: space-between;
+    margin: 20px 0 12px 0; 
+}
+/* SOMETHING TO UPDATE GITHUB ERASE ME LATER */
+form .user-details .input-box{
+    margin-bottom: 15px;
+    /* width: calc(100% / 1.5 - 20px); */
+    /* width:85%; */
+    padding-left:20px;
+    justify-content: space-between;
+
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight:500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid darktan;
+    /* padding-left:15px; */
+    font-size:16px;
+    border-bottom-width:3px;
+    transition: all 0.3s ease; 
+    max-width: 30ch;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: tan;
+}
+
+form{
+    background-color: gray;
+
+}
+
+form .button{
+    height:45px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: gray;
+    padding-left: 15px;
+    padding-bottom:30px;
+    
+}
+
+
+form .button input{
+    
+    height: 100%;
+    width: 10%;
+    outline: none;
+    background:tan;
+    font-size: 18px;
+    font-weight:500;
+    border-radius:5px;
+    letter-spacing: 1px;
+}
+
+form .button input:hover{
+    background:rgb(164, 139, 107);
+}
+
+@media (max-width: 584px){
+    .container{
+        max-width:100%;
+    }
+    form .user-details .input-box{
+        margin-bottom:15px;
+        width: 100%;
+    }
+    .container form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+    }
+}
