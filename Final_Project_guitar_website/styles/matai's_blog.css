@@ -1,0 +1,17 @@
+.matais_blog_img{
+    display: block;
+    text-align: center; 
+}
+.matais_blog_img :nth-child(1){
+    width: 100%;
+}
+.matais_blog_img :nth-child(2){
+    width: 100%;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+.matais_blog_img :nth-child(3){
+    width: 100%;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
