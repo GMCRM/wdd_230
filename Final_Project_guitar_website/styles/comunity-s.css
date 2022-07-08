@@ -1,4 +1,27 @@
 /* header  CSS*/
+
+.header-stuff{
+    background-color:  rgb(0, 87, 4);
+    padding:5px;
+}
+
+.menu_icon {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#menu-icon {
+    font-size: 2em;
+}
+
+/* :nth-child(3){
+    display:none;
+} */
+
 .logo-img{
     border-radius: 50%;
     height: 60px;
