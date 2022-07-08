@@ -1,3 +1,7 @@
+body {
+    margin:0;
+}
+
 /* header  CSS*/
 
 .header-stuff{
@@ -11,8 +15,6 @@
     border: none;
     font-size: 2rem;
     padding-left:50px;
-    padding-right:1px;
-
 }
 
 #menu-icon {
@@ -20,7 +22,7 @@
     color:white;
 }
 
-:nth-child(3){
+#menu li:nth-child(3){
     display:none;
 }
 
@@ -50,7 +52,7 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.5); */
     text-align: center;
     font-weight:bold;
     padding-left: 40px;
@@ -72,6 +74,7 @@ nav ul {
 
 .nav-menu {
     display:none;
+    padding-left: 20px;
 }
 
 #menu-icon {
