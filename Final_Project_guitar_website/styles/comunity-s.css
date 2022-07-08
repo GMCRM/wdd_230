@@ -10,17 +10,18 @@
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: white;
+    padding-left:50px;
 
 }
 
 #menu-icon {
     font-size: 2em;
+    color:white;
 }
 
-/* :nth-child(3){
+:nth-child(3){
     display:none;
-} */
+}
 
 .logo-img{
     border-radius: 50%;
@@ -67,6 +68,18 @@ nav ul {
     margin: 0 auto;
 }
 
+
+.nav-menu {
+    display:none;
+}
+
+#menu-icon {
+    display:block;
+}
+
+.responsive {
+    display:block;
+}
 /* end of header CSS */
 footer{
     text-align: center;
