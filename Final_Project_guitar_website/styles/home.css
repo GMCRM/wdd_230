@@ -11,10 +11,12 @@
     margin-bottom: -4px;
 }
 
-.text{
+.text{ 
     color:white;
-    font-size: 11rem;
+    font-size: 6rem;
     font-family: 'Brush Script MT', cursive;
+    
+
 }
 
 .box{
@@ -26,10 +28,10 @@
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 210px; /* Adjust this value to move the positioned div up and down */
+    /* left: 5%; */
+    /* right: 5%; */
+    top: 4vw; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 100%; /* Set the width of the positioned div */
+    /* width: 100%; Set the width of the positioned div */
 }
 
