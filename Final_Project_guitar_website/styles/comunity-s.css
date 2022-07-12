@@ -107,6 +107,7 @@ footer{
     height: 25px;
     width: 25px;
     padding-right:5px;
+    padding-left:5px;
 }
 
 .instagram-img{
@@ -114,6 +115,8 @@ footer{
     height: 25px;
     width: 25px;
     padding-left:5px;
+    padding-right:5px;
+
 }
 
 .channel-link {

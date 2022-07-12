@@ -1,3 +1,8 @@
+.hidden{
+    display: none;
+}
+
+
 .hero-image {
     background-image: url("/Final_Project_guitar_website/images/home_image.jpg");
     background-color: #cccccc;
@@ -59,7 +64,7 @@ img.right-button{
     
 }
 
-.carousel{
+.carousel, .carousel2, .carousel3{
     display:flex;
     margin:10px 40px;
     width:760px;

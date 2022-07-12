@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,20 +11,27 @@
     <link rel="stylesheet" href="/Final_Project_guitar_website/styles/comunity-l.css">
     <title>Home</title>
 </head>
+
 <body>
     <header>
         <div class="header-stuff">
-        <p class="nav-menu" id="menu-icon">&#9776;</p>
-       
-        </div>        
-        <nav class="navbar"> 
+            <p class="nav-menu" id="menu-icon">&#9776;</p>
+
+        </div>
+        <nav class="navbar">
             <div class="new_s">
                 <ul class="nav-menu" id="menu">
-                    <li><a class="active" href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/home.html">Home</a></li>
-                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/sheet_music.html">Sheet Music</a></li>
-                    <li> <a  href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/home.html"><img class="logo-img" src="images/logo-img.webp" alt="logo image for Chief's Music"></a>  </li>
-                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/matai's_blog.html">Matai's Blog</a></li>
-                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/.learn_guitar.html">Learn Guitar</a></li>
+                    <li><a class="active"
+                            href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/home.html">Home</a></li>
+                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/sheet_music.html">Sheet
+                            Music</a></li>
+                    <li> <a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/home.html"><img
+                                class="logo-img" src="images/logo-img.webp" alt="logo image for Chief's Music"></a>
+                    </li>
+                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/matai's_blog.html">Matai's
+                            Blog</a></li>
+                    <li><a href="https://gmcrm.github.io/wdd_230/Final_Project_guitar_website/.learn_guitar.html">Learn
+                            Guitar</a></li>
                 </ul>
 
             </div>
@@ -32,58 +40,155 @@
 
     <div class="hero-image">
         <div class="hero-text">
-          
-          <h1 class="text">Matai Cross</h1>
-          
+
+            <h1 class="text">Matai Cross</h1>
+
         </div>
-      </div>
-      
-      <div class="hero-image-2">
+    </div>
+
+    <div class="hero-image-2">
         <div class="hero-text-2">
-          
-            <div class="carousel-placement">
-                <div class="component">
-                        <img class="left-button" src="/Final_Project_guitar_website/images/left.svg" alt="go to previous slide" onclick="goLeft()">
+            <div class="buttons">
+                <button onclick="showVideos('Original')">Original</button>
+                <button onclick="showVideos('Classical')">Classical</button>
+                <button onclick="showVideos('Cover')">Cover</button>
+            </div>
+
+        <div id="genres">    
+            <div  id="Original">
+                <div class="carousel-placement">
+                    <div class="component">
+                        <img class="left-button" src="/Final_Project_guitar_website/images/left.svg"
+                            alt="go to previous slide" onclick="goLeft()">
                         <div class="carousel">
-                            <div class="slide" id="slide1"><iframe width="760" height="515" src="https://www.youtube.com/embed/M-9USXBKtko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div class="slide" id="slide2"><iframe width="760" height="515" src="https://www.youtube.com/embed/sPEJJsie9uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div class="slide" id="slide3"><iframe width="760" height="515" src="https://www.youtube.com/embed/GlbuF2M_uAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="slide" id="slide1"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/M-9USXBKtko" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide2"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/sPEJJsie9uw" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide3"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/GlbuF2M_uAM" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
                         </div>
-                        <img class="right-button" src="/Final_Project_guitar_website/images/right.svg" alt="go to next slide" onclick="goRight()">
-                
+                        <img class="right-button" src="/Final_Project_guitar_website/images/right.svg"
+                            alt="go to next slide" onclick="goRight()">
+
                     </div>
+                </div>
+
+            </div>
+
+            <div class="hidden" id="Classical">
+                <div class="carousel-placement">
+                    <div class="component">
+                        <img class="left-button" src="/Final_Project_guitar_website/images/left.svg"
+                            alt="go to previous slide" onclick="goLeft2()">
+                        <div class="carousel2">
+                            <div class="slide" id="slide1-2"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/lhp1xiS4KCs" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide2-2"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/4byw4raDnBc" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide3-2"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/8us44syezxc" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
                         </div>
-                
+                        <img class="right-button" src="/Final_Project_guitar_website/images/right.svg"
+                            alt="go to next slide" onclick="goRight2()">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="hidden" id="Cover">
+                <div class="carousel-placement">
+                    <div class="component">
+                        <img class="left-button" src="/Final_Project_guitar_website/images/left.svg"
+                            alt="go to previous slide" onclick="goLeft3()">
+                        <div class="carousel3">
+                            <div class="slide" id="slide1-3"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/SvrlmXpbp9s" title="YouTube video player"
+                                  frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide2-3"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/sPEJJsie9uw" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
+                            <div class="slide" id="slide3-3"><iframe width="760" height="515"
+                                    src="https://www.youtube.com/embed/oxnfHQEpiBg" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></div>
                         </div>
-                        
-                        </div>
-          
+                        <img class="right-button" src="/Final_Project_guitar_website/images/right.svg"
+                            alt="go to next slide" onclick="goRight3()">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>  
+
         </div>
-      </div>
+
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
 
     <main>
-        
+
     </main>
 
 
     <!-- carousel slideshow -->
 
-    
-<!-- ----------------------------------- -->
+
+    <!-- ----------------------------------- -->
 
 
 
 
     <footer>
-    
-            <p class="copywright">&copy;2022 Chief's Music</p> 
-            <a href="facebook.com"><img class="facebook-img" src="images/facebook_logo.png" alt="facebook logo"></a>
-            <a href="instagram.com"><img class="instagram-img" src="images/instagram_logo.jpeg" alt="facebook logo"></a>
-            <a href="facebook.com"><p class="channel-link">Matai's YouTube Channel</p></a>
 
-      
+        <p class="copywright">&copy;2022 Chief's Music</p>
+        <a href="facebook.com"><img class="facebook-img" src="images/facebook_logo.png" alt="facebook logo"></a>
+        <a href="instagram.com"><img class="instagram-img" src="images/instagram_logo.jpeg" alt="facebook logo"></a>
+        <a href="facebook.com">
+            <p class="channel-link">Matai's YouTube Channel</p>
+        </a>
+
+
     </footer>
     <script src="/Final_Project_guitar_website/scripts/comunity.js"></script>
 
 </body>
+
 </html>
