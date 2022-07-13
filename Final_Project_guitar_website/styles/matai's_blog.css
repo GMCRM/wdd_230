@@ -34,6 +34,18 @@
       background-color: rgb(49, 28, 1);
   }
 
+  .post-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.post-paragraph{
+    width:400px;
+    margin:0 auto;
+    font-size: 1.3em;
+    padding-bottom:40px;
+}
+
   .blog{
     background:white;
     width:50%;
