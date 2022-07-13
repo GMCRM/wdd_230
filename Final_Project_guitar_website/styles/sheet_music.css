@@ -15,7 +15,7 @@
   }
 
   .hero-image-2 {
-    background-image: url("/Final_Project_guitar_website/images/sheet_music_background_img.jpg");
+    background-image: url("../images/sheet_music_background_img.jpg");
     background-color: #cccccc;
     height: 900px;
     background-position: center;

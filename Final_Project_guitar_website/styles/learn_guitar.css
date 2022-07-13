@@ -44,7 +44,7 @@ form .button input:hover{
 
 
 .hero-image {
-    background-image: url("/Final_Project_guitar_website/images/learn_guitar_background_img.jpg");
+    background-image: url("../images/learn_guitar_background_img.jpg");
     background-color: #cccccc;
     height: 800px;
     background-position: center;
