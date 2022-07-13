@@ -55,6 +55,28 @@
                 <div class="blog">
                     <!-- copy and edit this for new post. -->
                     <div class="posts">
+                        <img class="my-image" alt="Image of me!"
+                            src="/Final_Project_guitar_website/images/blog_web_update.jpg" />
+                        <p class="post-title">Huge website redesign!</p>
+                        <p class="post-paragraph">
+                            As you can see, I have been working hard to bring you a fully redesigned website! I'm super happy with how its turning out, and can wait for its full launch!
+                        </p>
+                        <form action="#">
+                            <div class="user-details">
+                                <div class="input-box">
+                                    <span class="details">Comment Section</span>
+                                    <textarea id="comment-box-3" name="Comment Section" rows="4" cols="50" type="text"
+                                        placeholder="Comment on the Post" ></textarea>
+                                </div></div>
+                        </form>
+                        <button id="comment-submit" class="comment-submit" onclick="postComment('3')">Submit</button>
+                        <button onload="loadLike('3')" onclick="like('3', this)" name="like3" data-postID="3" class="like-button">Like</button>
+
+                        <div id="comment-container-3"></div>
+                    </div>
+                    <!-- stop here with copy -->
+                    <!-- copy and edit this for new post. -->
+                    <div class="posts">
                     <img class="my-image" alt="Image of me!"
                         src="https://cdn.glitch.me/6fd673a6-28c6-4067-aebb-9b8a7c302f04%2FIMG_975910A171C0-1.jpeg?v=1634932363537" />
                     <p class="post-title">Quick Update!</p>
@@ -66,11 +88,14 @@
                         <div class="user-details">
                             <div class="input-box">
                                 <span class="details">Comment Section</span>
-                                <textarea name="Comment Section" rows="4" cols="50" type="text"
+                                <textarea id="comment-box-2" name="Comment Section" rows="4" cols="50" type="text"
                                     placeholder="Comment on the Post" ></textarea>
                             </div></div>
                     </form>
-                    <button id="comment-submit" class="comment-submit">Submit</button> <button onclick="like(this)" name="like1" class="like-button">Like</button>
+                    <button id="comment-submit" class="comment-submit" onclick="postComment('2')">Submit</button>
+                    <button onload="loadLike('2')" onclick="like('2', this)" name="like2" data-postID="2" class="like-button">Like</button>
+
+                    <div id="comment-container-2"></div>
                 </div>
                 <!-- stop here with copy -->
                 <div class="posts">
@@ -86,20 +111,16 @@
                         <div class="user-details">
                             <div class="input-box">
                                 <span class="details">Comment Section</span>
-                                <textarea name="Comment Section" rows="4" cols="50" type="text"
+                                <textarea id="comment-box-1" name="Comment Section" rows="4" cols="50" type="text"
                                     placeholder="Comment on the Post" ></textarea>
                             </div>
+                        </div>
                     </form>
-                    <button class="comment-submit">Submit</button> <button onclick="like(this)" name="like1" class="like-button">Like</button>
+                    <button class="comment-submit" onclick="postComment('1')">Submit</button>
+                    <button onclick="like('1', this)" data-postID="1" class="like-button">Like</button>
+                    <div id="comment-container-1"></div>
                 </div>
-
-            </div></div>
-            
-
         </div>
-        
-        
-
     </main>
 
     <footer>
