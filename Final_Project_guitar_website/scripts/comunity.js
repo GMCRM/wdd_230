@@ -43,3 +43,16 @@ function showVideos(group){
      document.getElementById(group).classList.remove("hidden");
 }
 
+
+
+function like(button){
+    if(localStorage.getItem(button.name)=="1"){
+        button.innerText="Like";
+        localStorage.setItem(button.name, "0");
+    
+    }
+    else{
+        button.innerText="Unlike";
+        localStorage.setItem(button.name, "1");
+    }
+}
