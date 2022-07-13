@@ -41,7 +41,35 @@
     color: white;
   }
 
+  .button-genre1{
+      background-color: transparent;
+      color:white;
+      font-size: 1.8em;
+      border-style: none;
+    border-right: 2px solid white;
+    cursor: pointer;
+    
 
+  }
+  .button-genre2{
+    background-color: transparent;
+    color:white;
+    font-size: 1.8em;
+    border-style: none;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+}
+.button-genre3{
+    background-color: transparent;
+    color:white;
+    font-size: 1.8em;
+    border-style: none;
+    border-left: 2px solid white;
+    cursor: pointer;
+    
+}
 
 
 
