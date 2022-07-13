@@ -1,9 +1,176 @@
-.sheet_music_img{
-    display: block;
-    text-align: center; 
+.hidden{
+    display: none;
+}
+
+
+
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-image-2 {
+    background-image: url("/Final_Project_guitar_website/images/sheet_music_background_img.jpg");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text-2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .button-genre1{
+      background-color: transparent;
+      color:white;
+      font-size: 1.8em;
+      border-style: none;
+    border-right: 2px solid white;
+    cursor: pointer;
+    
+
+  }
+  .button-genre2{
+    background-color: transparent;
+    color:white;
+    font-size: 1.8em;
+    border-style: none;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+}
+.button-genre3{
+    background-color: transparent;
+    color:white;
+    font-size: 1.8em;
+    border-style: none;
+    border-left: 2px solid white;
+    cursor: pointer;
     
 }
-img{
+
+
+
+/* carousel code */
+
+img.left-button{
+    width:80px;
+    height:700px;
+    cursor: pointer;
+}
+img.right-button{
+    width:80px;
+    height:700px;
+    cursor: pointer;
+
+}
+
+.component{
+    display:flex;
+    
+}
+
+.carousel, .carousel2, .carousel3{
+    display:flex;
+    margin:10px 40px;
+    width:500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    
+}
+
+.slide{
+    width: 500px;
+    height: 700px;
+    /* border:1px solid black; */
+    margin: 0 20px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+
+}
+
+.slide img{
+    width:500px;
+
+}
+
+#slide1{ 
+
+}
+#slide2{
+}
+#slide3{
+}
+
+
+/* ------------------ */
+
+
+
+
+
+
+
+.home_img{
+    display: block;
+    text-align: center; 
+}
+.background{
     width: 100%;
+    margin-top: -4px;
     margin-bottom: -4px;
+}
+
+
+.text{ 
+    color:white;
+    font-size: 6rem;
+    font-family: 'Brush Script MT', cursive;
+    
+
+}
+
+.box{
+    position: relative;
+    display: block; /* Make the width of box same as image */
+    width:100%;
+    
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    /* left: 5%; */
+    /* right: 5%; */
+    top: 4vw; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    /* width: 100%; Set the width of the positioned div */
+}
+
+
+
+.box .carousel-placement{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right:10%;
+    text-align: center;
+    top: 14vw; /* Adjust this value to move the positioned div up and down */
+
 }

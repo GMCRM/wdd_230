@@ -1,9 +1,76 @@
-.learn_guitar_img{
-    display: block;
-    text-align: center; 
-    
+form .details{
+    margin-left: 50px;
 }
-img{
-    width: 100%;
-    margin-bottom: -4px;
+
+
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid darktan;
+    font-size:16px;
+    border-bottom-width:3px;
+    transition: all 0.3s ease; 
+    max-width: 30ch;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 50px;
 }
+
+
+form .button{
+    height:45px;
+    margin: 15px 0;
+    /* padding-left: 15px; */
+    margin-bottom:55px ;
+}
+
+form .button input{
+    height: 100%;
+    width: 70%;
+    outline: none;
+    background:tan;
+    font-size: 18px;
+    font-weight:500;
+    border-radius:5px;
+    letter-spacing: 1px;
+    margin-left:50px;
+}
+
+form .button input:hover{
+    background:rgb(164, 139, 107);
+}
+
+
+.hero-image {
+    background-image: url("/Final_Project_guitar_website/images/learn_guitar_background_img.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+.bio-text {
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .sign_up_text{
+    color:black;
+    border-bottom: black solid 1px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    /* margin-right:90px; */
+
+  }
