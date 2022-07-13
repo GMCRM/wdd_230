@@ -4,7 +4,7 @@
 
 
 .hero-image {
-    background-image: url("/Final_Project_guitar_website/images/home_image.jpg");
+    background-image: url("../images/home_image.jpg");
     background-color: #cccccc;
     height: 800px;
     background-position: center;
@@ -23,7 +23,7 @@
   }
 
   .hero-image-2 {
-    background-image: url("/Final_Project_guitar_website/images/home_background_img.png");
+    background-image: url("../images/home_background_img.png");
     background-color: #cccccc;
     height: 900px;
     background-position: center;
