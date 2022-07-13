@@ -116,8 +116,11 @@
                             </div>
                         </div>
                     </form>
-                    <button class="comment-submit" onclick="postComment('1')">Submit</button>
-                    <button onclick="like('1', this)" data-postID="1" class="like-button">Like</button>
+                    <!-- <button class="comment-submit" onclick="postComment('1')">Submit</button>
+                    <button onclick="like('1', this)" data-postID="1" class="like-button">Like</button> -->
+                    <button id="comment-submit" class="comment-submit" onclick="postComment('1')">Submit</button>
+                    <button onload="loadLike('1')" onclick="like('1', this)" name="like1" data-postID="1" class="like-button">Like</button>
+
                     <div id="comment-container-1"></div>
                 </div>
         </div>
