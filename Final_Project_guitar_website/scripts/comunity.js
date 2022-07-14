@@ -43,6 +43,8 @@ function showVideos(group){
      document.getElementById(group).classList.remove("hidden");
 }
 
+// like button local storage code
+
 window.addEventListener('load', () => {
     let likeBtns = document.querySelectorAll('button.like-button');
     for (let i = 0; i < likeBtns.length; i++) {
@@ -71,7 +73,7 @@ function like(postID, button){
 }
 
 
-// local storage code
+// local storage code comment section
 let commentData = JSON.parse(localStorage.getItem("comments"));
 
 if (commentData !== null) {
@@ -92,6 +94,7 @@ function postComment(postID) {
 function createComment(postID, value) {
     let content = document.createElement('p'),
         container = document.getElementById('comment-container-' + postID);
-    content.innerText = value;
+        content.classList.add("comment-css")    
+        content.innerText = value;
     container.appendChild(content);
 }
