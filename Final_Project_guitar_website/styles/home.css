@@ -74,18 +74,40 @@
 
 
 /* carousel code */
-
+/* 
 img.left-button{
     width:80px;
-    height:550px;
+    height:50px;
     cursor: pointer;
 }
 img.right-button{
     width:80px;
-    height:550px;
+    height:50px;
     cursor: pointer;
+} */
+
+
+.left-button{
+    height:50px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(65, 34, 0);
+    color: white;
+}
+.right-button{
+    height:50px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(65, 34, 0);
+    color: white;
 
 }
+
+
+
+
 
 .component{
     display:flex;

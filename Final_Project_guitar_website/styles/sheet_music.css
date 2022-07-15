@@ -2,7 +2,23 @@
     display: none;
 }
 
+.left-button{
+    height:50px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(65, 34, 0);
+    color: white;
+}
+.right-button{
+    height:50px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(65, 34, 0);
+    color: white;
 
+}
 
   
   .hero-text {
