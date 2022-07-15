@@ -15,6 +15,8 @@ document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu);
 function goRight(){
     document.querySelector(".carousel").scrollLeft += 560;
 }
+const right_button = document.querySelector(".right-button");
+right_button.addEventListener("click", goRight) 
 
 function goLeft(){
     document.querySelector(".carousel").scrollLeft -= 560;
