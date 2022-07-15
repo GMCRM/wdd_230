@@ -13,10 +13,13 @@ document.querySelector(".nav-menu").addEventListener("click", AdaptiveMenu);
 // carousel
 
 function goRight(){
+    alert("hi");
     document.querySelector(".carousel").scrollLeft += 560;
 }
 const right_button = document.querySelector(".right-button");
-right_button.addEventListener("click", goRight) 
+right_button.addEventListener("click", goRight);
+right_button.addEventListener("touchend", goRight);
+
 
 function goLeft(){
     document.querySelector(".carousel").scrollLeft -= 560;
