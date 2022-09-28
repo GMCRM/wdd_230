@@ -2,6 +2,9 @@ form .details{
     margin-left: 50px;
 }
 
+#honey{
+    display:none;
+}
 
 .user-details .input-box input{
     height:45px;
